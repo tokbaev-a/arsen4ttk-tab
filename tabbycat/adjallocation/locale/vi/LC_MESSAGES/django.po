@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-20 17:42\n"
+"PO-Revision-Date: 2022-11-20 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -58,15 +58,15 @@ msgstr ""
 
 #: adjallocation/apps.py:7
 msgid "Adjudicator Allocation"
-msgstr ""
+msgstr "Phân bổ giám khảo"
 
 #: adjallocation/consumers.py:59
 msgid "Draw is already released, unrelease draw to redo auto-allocations."
-msgstr ""
+msgstr "Bảng đấu đã được công bố, hủy công bố bảng đấu để tự động phân bổ lại."
 
 #: adjallocation/consumers.py:63
 msgid "Draw is not confirmed, confirm draw to run auto-allocations."
-msgstr ""
+msgstr "Bảng đấu chưa được xác nhận, xác nhận bảng đấu để tự động phân bổ."
 
 #: adjallocation/consumers.py:69
 msgid "There are no preformed panels available to allocate."
@@ -147,7 +147,7 @@ msgstr ""
 #: adjallocation/models.py:28 adjallocation/models.py:48
 #: adjallocation/models.py:80 adjallocation/models.py:169
 msgid "adjudicator"
-msgstr ""
+msgstr "giám khảo"
 
 #: adjallocation/models.py:30 adjallocation/models.py:171
 msgid "type"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: adjallocation/models.py:50 adjallocation/models.py:95
 msgid "team"
-msgstr ""
+msgstr "đội"
 
 #: adjallocation/models.py:53
 msgid "adjudicator-team conflict"
@@ -179,11 +179,11 @@ msgstr ""
 
 #: adjallocation/models.py:64
 msgid "adjudicator 1"
-msgstr ""
+msgstr "giám khảo 1"
 
 #: adjallocation/models.py:67
 msgid "adjudicator 2"
-msgstr ""
+msgstr "giám khảo 2"
 
 #: adjallocation/models.py:70
 msgid "adjudicator-adjudicator conflict"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: adjallocation/models.py:82 adjallocation/models.py:97
 msgid "institution"
-msgstr ""
+msgstr "tổ chức"
 
 #: adjallocation/models.py:85
 msgid "adjudicator-institution conflict"
@@ -215,11 +215,11 @@ msgstr ""
 
 #: adjallocation/models.py:114
 msgid "round"
-msgstr ""
+msgstr "vòng"
 
 #: adjallocation/models.py:116
 msgid "importance"
-msgstr ""
+msgstr "mức độ quan trọng"
 
 #: adjallocation/models.py:119
 msgid "minimum bracket"
@@ -316,11 +316,11 @@ msgstr ""
 
 #: adjallocation/views.py:35
 msgid "Male"
-msgstr ""
+msgstr "Nam"
 
 #: adjallocation/views.py:36
 msgid "Female"
-msgstr ""
+msgstr "Nữ"
 
 #: adjallocation/views.py:37
 msgid "Other"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: adjallocation/views.py:90
 msgid "Edit Allocation"
-msgstr ""
+msgstr "Chỉnh sửa phân bổ"
 
 #: adjallocation/views.py:105
 msgid "Edit Panels"
@@ -344,97 +344,97 @@ msgstr ""
 
 #: adjallocation/views.py:172
 msgid "Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Xung đột giữa giám khảo và đội"
 
 #: adjallocation/views.py:173
 msgid "Save Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Lưu xung đột giữa giám khảo và đội"
 
 #: adjallocation/views.py:198
 #, python-format
 msgid "Saved %(count)d adjudicator-team conflict."
 msgid_plural "Saved %(count)d adjudicator-team conflicts."
-msgstr[0] ""
+msgstr[0] "Đã lưu %(count)d xung đột giữa giám khảo và đội."
 
 #: adjallocation/views.py:204
 #, python-format
 msgid "Deleted %(count)d adjudicator-team conflict."
 msgid_plural "Deleted %(count)d adjudicator-team conflicts."
-msgstr[0] ""
+msgstr[0] "Đã xóa %(count)d xung đột giữa giám khảo và đội."
 
 #: adjallocation/views.py:209
 msgid "No changes were made to adjudicator-team conflicts."
-msgstr ""
+msgstr "Không có thay đổi nào được thực hiện với xung đột giữa giám khảo và đội."
 
 #: adjallocation/views.py:216
 msgid "Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Xung đột giữa các giám khảo"
 
 #: adjallocation/views.py:217
 msgid "Save Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Lưu xung đột giữa các giám khảo"
 
 #: adjallocation/views.py:238
 #, python-format
 msgid "Saved %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Saved %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
+msgstr[0] "Đã lưu %(count)d xung đột giữa các giám khảo."
 
 #: adjallocation/views.py:244
 #, python-format
 msgid "Deleted %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Deleted %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
+msgstr[0] "Đã xóa %(count)d xung đột giữa các giám khảo."
 
 #: adjallocation/views.py:249
 msgid "No changes were made to adjudicator-adjudicator conflicts."
-msgstr ""
+msgstr "Không có thay đổi nào được thực hiện với xung đột giữa các giám khảo."
 
 #: adjallocation/views.py:256
 msgid "Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Xung đột giữa giám khảo và tổ chức"
 
 #: adjallocation/views.py:257
 msgid "Save Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Lưu xung đột giữa giám khảo và tổ chức"
 
 #: adjallocation/views.py:277
 #, python-format
 msgid "Saved %(count)d adjudicator-institution conflict."
 msgid_plural "Saved %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
+msgstr[0] "Đã lưu %(count)d xung đột giữa giám khảo và tổ chức."
 
 #: adjallocation/views.py:283
 #, python-format
 msgid "Deleted %(count)d adjudicator-institution conflict."
 msgid_plural "Deleted %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
+msgstr[0] "Đã xóa %(count)d xung đột giữa giám khảo và tổ chức."
 
 #: adjallocation/views.py:288
 msgid "No changes were made to adjudicator-institution conflicts."
-msgstr ""
+msgstr "Không có thay đổi nào được thực hiện với xung đột giữa giám khảo và tổ chức."
 
 #: adjallocation/views.py:295
 msgid "Team-Institution Conflicts"
-msgstr ""
+msgstr "Xung đột giữa đội và tổ chức"
 
 #: adjallocation/views.py:296
 msgid "Save Team-Institution Conflicts"
-msgstr ""
+msgstr "Lưu xung đột giữa đội và tổ chức"
 
 #: adjallocation/views.py:319
 #, python-format
 msgid "Saved %(count)d team-institution conflict."
 msgid_plural "Saved %(count)d team-institution conflicts."
-msgstr[0] ""
+msgstr[0] "Đã lưu %(count)d xung đột giữa đội và tổ chức."
 
 #: adjallocation/views.py:325
 #, python-format
 msgid "Deleted %(count)d team-institution conflict."
 msgid_plural "Deleted %(count)d team-institution conflicts."
-msgstr[0] ""
+msgstr[0] "Đã xóa %(count)d xung đột giữa đội và tổ chức."
 
 #: adjallocation/views.py:330
 msgid "No changes were made to team-institution conflicts."
-msgstr ""
+msgstr "Không có thay đổi nào được thực hiện với xung đột giữa đội và tổ chức."
 
