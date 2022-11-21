@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2022-11-21 18:31\n"
+"PO-Revision-Date: 2022-11-21 20:11\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -21,12 +21,12 @@ msgstr ""
 #, python-format
 msgid "%(count)d debate had its status set to %(status)s."
 msgid_plural "%(count)d debates had their statuses set to %(status)s."
-msgstr[0] ""
+msgstr[0] "Có %(count)d trận tranh biện có trạng thái %(status)s."
 
 #: draw/admin.py:74
 #, python-format
 msgid "Set result status to %(status)s"
-msgstr ""
+msgstr "Đặt kết quả trạng thái thành %(status)s"
 
 #: draw/admin.py:84
 #, python-format
@@ -42,7 +42,7 @@ msgstr[0] ""
 
 #: draw/apps.py:7 draw/views.py:452 draw/views.py:455
 msgid "Draw"
-msgstr ""
+msgstr "Bảng đấu"
 
 #: draw/generator/__init__.py:14
 msgid "Too many swaps"
@@ -189,15 +189,15 @@ msgstr ""
 
 #: draw/models.py:32 draw/models.py:37
 msgid "confirmed"
-msgstr ""
+msgstr "đã xác nhận"
 
 #: draw/models.py:43 draw/models.py:375
 msgid "round"
-msgstr ""
+msgstr "vòng"
 
 #: draw/models.py:45
 msgid "room"
-msgstr ""
+msgstr "phòng"
 
 #: draw/models.py:48
 msgid "bracket"
@@ -205,11 +205,11 @@ msgstr ""
 
 #: draw/models.py:50
 msgid "room rank"
-msgstr ""
+msgstr "xếp hạng phòng"
 
 #: draw/models.py:56
 msgid "importance"
-msgstr ""
+msgstr "mức độ quan trọng"
 
 #: draw/models.py:58
 msgid "result status"
@@ -229,7 +229,7 @@ msgstr "trận tranh biện"
 
 #: draw/models.py:65
 msgid "debates"
-msgstr ""
+msgstr "các trận tranh biện"
 
 #. Translators: This is appended to a list of teams, e.g. "Auckland
 #. 1, Vic Wellington 1 (sides not confirmed)". Mind the leading
@@ -242,7 +242,7 @@ msgstr ""
 #. vs Vic Wellington 1". Mind the leading and trailing spaces.
 #: draw/models.py:96 draw/models.py:113
 msgid " vs "
-msgstr ""
+msgstr " đối đầu với "
 
 #: draw/models.py:262
 msgid "affirmative"
@@ -254,19 +254,19 @@ msgstr ""
 
 #: draw/models.py:264
 msgid "opening government"
-msgstr ""
+msgstr "đội ủng hộ thượng viện"
 
 #: draw/models.py:265
 msgid "opening opposition"
-msgstr ""
+msgstr "đội phản đối thượng viện"
 
 #: draw/models.py:266
 msgid "closing government"
-msgstr ""
+msgstr "đội ủng hộ hạ viện"
 
 #: draw/models.py:267
 msgid "closing opposition"
-msgstr ""
+msgstr "đội phản đối hạ viện"
 
 #: draw/models.py:274 draw/models.py:377
 msgid "team"
@@ -278,11 +278,11 @@ msgstr ""
 
 #: draw/models.py:281
 msgid "debate team"
-msgstr ""
+msgstr "đội"
 
 #: draw/models.py:282
 msgid "debate teams"
-msgstr ""
+msgstr "các đội"
 
 #: draw/models.py:303
 #, python-format
@@ -295,11 +295,11 @@ msgstr ""
 
 #: draw/models.py:308
 msgid "won"
-msgstr ""
+msgstr "thắng"
 
 #: draw/models.py:310
 msgid "lost"
-msgstr ""
+msgstr "thua"
 
 #: draw/models.py:383
 msgid "team side allocation"
@@ -319,11 +319,11 @@ msgstr ""
 #: draw/tables.py:76
 #, python-format
 msgid "Team %(num)d"
-msgstr ""
+msgstr "Đội %(num)d"
 
 #: draw/tables.py:88
 msgid "Room rank of this debate"
-msgstr ""
+msgstr "Xếp hạng phòng của trận tranh biện này"
 
 #: draw/tables.py:96
 msgid "Bracket of this debate"
@@ -365,11 +365,11 @@ msgstr ""
 
 #: draw/tables.py:283
 msgid "Position this round"
-msgstr ""
+msgstr "Vị trí trong vòng này"
 
 #: draw/tables.py:287
 msgid "Before"
-msgstr ""
+msgstr "Trước"
 
 #: draw/tables.py:288
 msgid "Side history before this round"
@@ -377,7 +377,7 @@ msgstr ""
 
 #: draw/tables.py:292
 msgid "After"
-msgstr ""
+msgstr "Sau"
 
 #: draw/tables.py:293
 msgid "Side history after this round"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: draw/tables.py:303 draw/tables.py:398
 msgid "Cost"
-msgstr ""
+msgstr "Chi phí"
 
 #: draw/tables.py:303
 msgid "Position cost"
@@ -393,7 +393,7 @@ msgstr ""
 
 #: draw/tables.py:316
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: draw/tables.py:360
 msgid "Teams with this many points are permitted in this debate<br>\n"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: draw/templates/admin/draw/debateteam/delete_warning.html:5
 msgid "STOP!!! Read this first! Deleting debate teams from the database may crash Tabbycat!"
-msgstr ""
+msgstr "CHÚ Ý: Xóa các đội trong trận tranh biện trong dữ liệu có thể khiến Tabbycat gặp sự cố."
 
 #: draw/templates/admin/draw/debateteam/delete_warning.html:10
 msgid "Tabbycat requires that all debates have <strong>exactly</strong> one debate team for each side, and no other debate teams, at all times. If you delete any debate teams, you must then either replace each one with a new debate team in the same debate, or delete the associated debate objects. If you don't do this correctly, many pages <strong>will</strong> crash."
@@ -432,7 +432,7 @@ msgstr ""
 
 #: draw/templates/admin/draw/debateteam/edit_warning.html:5
 msgid "WARNING!!! If you are editing debate teams, read this first!"
-msgstr ""
+msgstr "CHÚ Ý: Nếu như bạn đang chỉnh sửa các đội, đọc"
 
 #: draw/templates/admin/draw/debateteam/edit_warning.html:10
 msgid "Tabbycat requires that there be <strong>exactly</strong> one debate team for each side, and no other debate teams, in each debate. If you edit debate teams in the database, you must ensure that this remains the case. If you don't do this correctly, many pages <strong>will</strong> crash."
@@ -484,7 +484,7 @@ msgstr[0] ""
 #, python-format
 msgid "1 debate does not have a room."
 msgid_plural "%(ndebates)s debates do not have a room."
-msgstr[0] ""
+msgstr[0] "Có %(ndebates)s trận tranh biện không có phòng."
 
 #: draw/templates/draw_alerts_venues.html:14
 #, python-format
@@ -512,7 +512,7 @@ msgstr ""
 
 #: draw/templates/draw_base.html:19
 msgid "Draw Details"
-msgstr ""
+msgstr "Chi tiết bảng đấu"
 
 #: draw/templates/draw_base.html:23
 msgid "Position Balance"
@@ -523,7 +523,7 @@ msgstr ""
 #: draw/templates/draw_display_assistant.html:4
 #: draw/templates/draw_display_assistant.html:5
 msgid "Display Draw"
-msgstr ""
+msgstr "Hiện thị bảng đấu"
 
 #: draw/templates/draw_confirm_regeneration.html:5
 msgid "Confirm draw regeneration"
@@ -532,12 +532,12 @@ msgstr ""
 #: draw/templates/draw_confirm_regeneration.html:10
 #: draw/templates/draw_subpage.html:6
 msgid "Back to Draw"
-msgstr ""
+msgstr "Quay lại bảng đấu"
 
 #: draw/templates/draw_confirm_regeneration.html:16
 #, python-format
 msgid "Confirm Draw Deletion for %(round)s"
-msgstr ""
+msgstr "Xác nhận xóa bảng đấu ở vòng %(round)s"
 
 #: draw/templates/draw_confirm_regeneration.html:22
 #, python-format
@@ -551,24 +551,24 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:17
 msgid "View Draw"
-msgstr ""
+msgstr "Xem bảng đấu"
 
 #: draw/templates/draw_display_admin.html:23
 #, python-format
 msgid "Debates start at %(start_time)s"
-msgstr ""
+msgstr "Trận tranh biện bắt đầu từ %(start_time)s"
 
 #: draw/templates/draw_display_admin.html:27
 msgid "Add Start Time"
-msgstr ""
+msgstr "Thêm thời gian bắt đầu"
 
 #: draw/templates/draw_display_admin.html:34
 msgid "Enter Results"
-msgstr ""
+msgstr "Nhập kết quả"
 
 #: draw/templates/draw_display_admin.html:46
 msgid "Motion Details"
-msgstr ""
+msgstr "Chi tiết kiến nghị"
 
 #. Translators: Used when only one motion is expected, but there is more than one.
 #: draw/templates/draw_display_admin.html:54
@@ -576,11 +576,11 @@ msgstr ""
 #, python-format
 msgid "%(motions_count)s motion has been entered."
 msgid_plural "%(motions_count)s motions have been entered."
-msgstr[0] ""
+msgstr[0] "Có %(motions_count)s kiến nghị đã được nhập."
 
 #: draw/templates/draw_display_admin.html:60
 msgid "Edit motions"
-msgstr ""
+msgstr "Chỉnh sửa các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:63
 msgid "Your configuration/format requires motions to be specified as part of ballot entry. Make sure they are added before results come in!"
@@ -588,7 +588,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:65
 msgid "Enter motions"
-msgstr ""
+msgstr "Nhập các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:75
 msgid "The motion has been entered."
@@ -596,7 +596,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:87
 msgid "Edit the motion"
-msgstr ""
+msgstr "Chỉnh sửa kiến nghị"
 
 #: draw/templates/draw_display_admin.html:90
 msgid "A motion should be added if you want to display it to the auditorium or print in on your ballots (using the links below) or to display it (later) on the public motions page."
@@ -604,15 +604,15 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:92
 msgid "Enter a motion"
-msgstr ""
+msgstr "Nhập kiến nghị"
 
 #: draw/templates/draw_display_admin.html:106
 msgid "Release Draw"
-msgstr ""
+msgstr "Công bố bảng đấu"
 
 #: draw/templates/draw_display_admin.html:112
 msgid "You have not generated a draw for this round yet. There is nothing to release."
-msgstr ""
+msgstr "Bạn chưa tạo bảng đấu cho vòng này. Không có gì để công bố."
 
 #: draw/templates/draw_display_admin.html:117
 msgid "The draw for this round is still in a draft state. Confirm the draw before releasing it."
@@ -624,11 +624,11 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:127
 msgid "The draw has been released publicly."
-msgstr ""
+msgstr "Bảng đấu đã được công khai."
 
 #: draw/templates/draw_display_admin.html:130
 msgid "View public draw page"
-msgstr ""
+msgstr "Xem bảng đấu công khai"
 
 #: draw/templates/draw_display_admin.html:139
 #, python-format
@@ -642,7 +642,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:154
 msgid "Release draw to public"
-msgstr ""
+msgstr "Công khai bảng đấu"
 
 #: draw/templates/draw_display_admin.html:160
 msgid "Your tournament allows ballots and feedback to be submitted online by adjudicators. The draw must be released before they can do so."
@@ -666,11 +666,11 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:196
 msgid "Release Motions"
-msgstr ""
+msgstr "Công bố các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:197
 msgid "Release motions to public"
-msgstr ""
+msgstr "Công khai các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:198
 msgid "Unrelease motions to public"
@@ -678,11 +678,11 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:200
 msgid "Release Motion"
-msgstr ""
+msgstr "Công bố kiến nghị"
 
 #: draw/templates/draw_display_admin.html:201
 msgid "Release motion to public"
-msgstr ""
+msgstr "Công khai kiến nghị"
 
 #: draw/templates/draw_display_admin.html:202
 msgid "Unrelease motion to public"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: draw/templates/draw_display_admin.html:245
 msgid "View public motions page"
-msgstr ""
+msgstr "Xem trang công khai kiến nghị"
 
 #: draw/templates/draw_display_admin.html:250
 #, python-format
@@ -729,12 +729,12 @@ msgstr ""
 #: draw/templates/draw_display_admin.html:277
 #: draw/templates/draw_display_assistant.html:18
 msgid "Display Draw ordered by Room"
-msgstr ""
+msgstr "Hiển thị bảng đấu xắp xếp theo phòng"
 
 #: draw/templates/draw_display_admin.html:281
 #: draw/templates/draw_display_assistant.html:22
 msgid "Display Draw ordered by Team"
-msgstr ""
+msgstr "Hiển thị bảng đấu xắp xếp theo đội"
 
 #: draw/templates/draw_display_admin.html:287
 #: draw/templates/draw_display_assistant.html:28
@@ -761,23 +761,23 @@ msgstr ""
 #: draw/templates/draw_display_admin.html:309
 #: draw/templates/draw_display_assistant.html:55
 msgid "Display Motions"
-msgstr ""
+msgstr "Hiển thị các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:328
 msgid "Email Motions"
-msgstr ""
+msgstr "Email các kiến nghị"
 
 #: draw/templates/draw_display_admin.html:330
 msgid "Email Motion"
-msgstr ""
+msgstr "Email kiến nghị"
 
 #: draw/templates/draw_display_admin.html:350
 msgid "Start at"
-msgstr ""
+msgstr "Bắt đầu từ"
 
 #: draw/templates/draw_display_assistant.html:62
 msgid "(for printing)"
-msgstr ""
+msgstr "(cho in ấn)"
 
 #: draw/templates/draw_display_assistant.html:66
 msgid "View Ballot Forms"
@@ -789,24 +789,24 @@ msgstr ""
 
 #: draw/templates/draw_display_by.html:17
 msgid "Scroll Speed"
-msgstr ""
+msgstr "Tốc độ cuộn"
 
 #: draw/templates/draw_display_by.html:20
 msgid "Fast"
-msgstr ""
+msgstr "Nhanh"
 
 #: draw/templates/draw_display_by.html:23
 #: draw/templates/draw_display_by.html:53
 msgid "Medium"
-msgstr ""
+msgstr "Vừa"
 
 #: draw/templates/draw_display_by.html:26
 msgid "Slow"
-msgstr ""
+msgstr "Chậm"
 
 #: draw/templates/draw_display_by.html:29
 msgid "Extra Slow"
-msgstr ""
+msgstr "Rất chậm"
 
 #: draw/templates/draw_display_by.html:35
 msgid "Hide Adjudicators"
@@ -818,40 +818,40 @@ msgstr ""
 
 #: draw/templates/draw_display_by.html:44
 msgid "Text Size"
-msgstr ""
+msgstr "Cỡ chữ"
 
 #: draw/templates/draw_display_by.html:47
 msgid "Tiny"
-msgstr ""
+msgstr "Rất nhỏ"
 
 #: draw/templates/draw_display_by.html:50
 msgid "Small"
-msgstr ""
+msgstr "Nhỏ"
 
 #: draw/templates/draw_display_by.html:56
 msgid "Large"
-msgstr ""
+msgstr "Lớn"
 
 #: draw/templates/draw_display_by.html:59
 msgid "Huge"
-msgstr ""
+msgstr "Rất lớn"
 
 #: draw/templates/draw_display_by.html:65
 msgid "Stop Scroll"
-msgstr ""
+msgstr "Dừng cuộn"
 
 #: draw/templates/draw_not_released.html:7
 #, python-format
 msgid "The draw for %(round)s has yet to be released."
-msgstr ""
+msgstr "Bảng đấu cho vòng %(round)s chưa được công bố."
 
 #: draw/templates/draw_not_released.html:11
 msgid "The draw for the next round has yet to be released."
-msgstr ""
+msgstr "Bảng đấu cho vòng sau chưa được công bố."
 
 #: draw/templates/draw_status_confirmed.html:18
 msgid "Adjudicator Allocations"
-msgstr ""
+msgstr "Phân bổ giám khảo"
 
 #: draw/templates/draw_status_confirmed.html:26
 msgid "There are currently fewer adjudicators checked in than there are rooms."
@@ -859,23 +859,23 @@ msgstr ""
 
 #: draw/templates/draw_status_confirmed.html:37
 msgid "Allocate adjudicators"
-msgstr ""
+msgstr "Phân bổ giám khảo"
 
 #: draw/templates/draw_status_confirmed.html:40
 msgid "Edit adjudicator allocation"
-msgstr ""
+msgstr "Chỉnh sửa phân bổ giám khảo"
 
 #: draw/templates/draw_status_confirmed.html:54
 msgid "Room Allocations"
-msgstr ""
+msgstr "Phân bổ phòng"
 
 #: draw/templates/draw_status_confirmed.html:62
 msgid "Allocate rooms"
-msgstr ""
+msgstr "Phân bổ phòng"
 
 #: draw/templates/draw_status_confirmed.html:65
 msgid "Edit room allocation"
-msgstr ""
+msgstr "Chỉnh sửa phân bổ phòng"
 
 #: draw/templates/draw_status_confirmed.html:78
 msgid "Preformed Panels"
@@ -909,11 +909,11 @@ msgstr[0] ""
 
 #: draw/templates/draw_status_draft.html:6
 msgid "Delete Draw"
-msgstr ""
+msgstr "Xóa bảng đấu"
 
 #: draw/templates/draw_status_draft.html:17
 msgid "Confirm Draw"
-msgstr ""
+msgstr "Xác nhận bảng đấu"
 
 #: draw/templates/draw_status_draft.html:25
 #, python-format
@@ -971,21 +971,21 @@ msgstr ""
 
 #: draw/views.py:68 draw/views.py:483
 msgid "No debates in this round"
-msgstr ""
+msgstr "Không có trận tranh biện nào trong vòng này"
 
 #: draw/views.py:76
 #, python-format
 msgid "Draw for %(round)s"
-msgstr ""
+msgstr "Bảng đấu cho vòng %(round)s"
 
 #: draw/views.py:78
 msgid "Draws for Current Rounds"
-msgstr ""
+msgstr "Bảng đấu cho các vòng hiện tại"
 
 #: draw/views.py:82
 #, python-format
 msgid "debates start at %(time)s (in %(time_zone)s)"
-msgstr ""
+msgstr "trận tranh biện bắt đầu từ %(time)s (ở %(time_zone)s)"
 
 #: draw/views.py:86
 #, python-format
@@ -996,11 +996,11 @@ msgstr ""
 #, python-format
 msgid "debate starts at %(time)s"
 msgid_plural "debates start at %(time)s"
-msgstr[0] ""
+msgstr[0] "trận tranh biện bắt đầu từ %(time)s"
 
 #: draw/views.py:171
 msgid "The draw for this round hasn't been released."
-msgstr ""
+msgstr "Bảng đấu cho vòng này chưa được công bố."
 
 #: draw/views.py:224
 #, python-format
@@ -1013,7 +1013,7 @@ msgstr ""
 
 #: draw/views.py:404
 msgid "Position"
-msgstr ""
+msgstr "Vị trí"
 
 #: draw/views.py:424
 msgid "Team Pairings"
@@ -1071,7 +1071,7 @@ msgstr ""
 #: draw/views.py:658
 #, python-format
 msgid "Could not create draw for %(round)s, there was already a draw!"
-msgstr ""
+msgstr "Không thể tạo bảng đấu cho vòng %(round)s, đã có bảng đấu có sẵn!"
 
 #: draw/views.py:666
 #, python-format
@@ -1101,7 +1101,7 @@ msgstr ""
 
 #: draw/views.py:746
 msgid "Released the draw."
-msgstr ""
+msgstr "Công bố bảng đấu."
 
 #: draw/views.py:761
 msgid "Unreleased the draw."
