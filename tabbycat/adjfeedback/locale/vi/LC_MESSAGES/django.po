@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-11-20 18:40\n"
+"PO-Revision-Date: 2022-11-21 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -54,25 +54,25 @@ msgstr ""
 #, python-format
 msgid "1 feedback submission was marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
 msgid_plural "%(count)d feedback submissions were marked as confirmed. Note that this may have caused other feedback submissions to be marked as unconfirmed."
-msgstr[0] ""
+msgstr[0] "Có %(count)d lượt gửi phản hồi đã được đánh dấu xác nhận. Chú ý rằng điều này có thể hủy đánh dấu xác nhận các lượt gửi phản hồi khác."
 
 #: adjfeedback/admin.py:192
 #, python-format
 msgid "1 feedback submission was not marked as confirmed, probably because other feedback submissions that conflict with it were also marked as confirmed."
 msgid_plural "%(count)d feedback submissions were not marked as confirmed, probably because other feedback submissions that conflict with them were also marked as confirmed."
-msgstr[0] ""
+msgstr[0] "Có %(count)d lượt gửi phản hồi chưa được đánh dấu xác nhận, có thể bởi vì các lượt gửi phản hồi khác không trùng khớp đã được đánh dấu là xác nhận."
 
 #: adjfeedback/admin.py:205
 #, python-format
 msgid "1 feedback submission was marked as unconfirmed."
 msgid_plural "%(count)d feedback submissions were marked as unconfirmed."
-msgstr[0] ""
+msgstr[0] "Có %(count)d lượt gửi phản hồi đã được đánh dấu là không xác nhận."
 
 #: adjfeedback/admin.py:215
 #, python-format
 msgid "1 feedback submission is now ignored."
 msgid_plural "%(count)d feedback submissions are now ignored."
-msgstr[0] ""
+msgstr[0] "Đã bỏ qua %(count)d lượt gửi phản hồi."
 
 #: adjfeedback/admin.py:225
 #, python-format
@@ -82,7 +82,7 @@ msgstr[0] ""
 
 #: adjfeedback/apps.py:7
 msgid "Adjudicator Feedback"
-msgstr ""
+msgstr "Phản hồi của giám khảo"
 
 #: adjfeedback/forms.py:26
 msgid "chair"
@@ -122,22 +122,22 @@ msgstr ""
 
 #: adjfeedback/forms.py:176
 msgid "Ignored"
-msgstr ""
+msgstr "Bỏ qua"
 
 #. Translators: e.g. "Megan Pearson (chair)", with adjpos="chair"
 #: adjfeedback/forms.py:228 adjfeedback/forms.py:291
 msgid "Submitted - "
-msgstr ""
+msgstr "Đã gửi - "
 
 #. Translators: e.g. "Megan Pearson (panellist)", with round="Round 3", adjpos="panellist"
 #: adjfeedback/forms.py:229 adjfeedback/forms.py:296
 #, python-format
 msgid "%(name)s (%(adjpos)s)"
-msgstr ""
+msgstr "%(name)s (%(adjpos)s)"
 
 #: adjfeedback/forms.py:252 adjfeedback/forms.py:326
 msgid "-- Adjudicators --"
-msgstr ""
+msgstr "-- Giám khảo --"
 
 #: adjfeedback/forms.py:269
 msgid "Adjudicator this feedback is about"
@@ -176,7 +176,7 @@ msgstr ""
 #: adjfeedback/forms.py:416
 #, python-format
 msgid "There is no adjudicator in this tournament with the name \"%(adjudicator)s\""
-msgstr ""
+msgstr "Không có giám khảo nào trong giải này mang tên \"%(adjudicator)s\""
 
 #: adjfeedback/forms.py:424
 #, python-format
@@ -193,15 +193,15 @@ msgstr "giám khảo"
 
 #: adjfeedback/models.py:16
 msgid "round"
-msgstr ""
+msgstr "vòng"
 
 #: adjfeedback/models.py:17 adjfeedback/models.py:232
 msgid "score"
-msgstr ""
+msgstr "điểm"
 
 #: adjfeedback/models.py:18
 msgid "timestamp"
-msgstr ""
+msgstr "mốc thời gian"
 
 #: adjfeedback/models.py:21
 msgid "adjudicator base score history"
@@ -213,16 +213,16 @@ msgstr ""
 
 #: adjfeedback/models.py:30
 msgid "question"
-msgstr ""
+msgstr "câu hỏi"
 
 #: adjfeedback/models.py:32
 msgid "feedback"
-msgstr ""
+msgstr "phản hồi"
 
 #: adjfeedback/models.py:45 adjfeedback/models.py:55 adjfeedback/models.py:65
 #: adjfeedback/models.py:74
 msgid "answer"
-msgstr ""
+msgstr "trả lời"
 
 #: adjfeedback/models.py:48
 msgid "adjudicator feedback boolean answer"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: adjfeedback/models.py:155
 msgid "from adjudicator"
-msgstr ""
+msgstr "từ giám khảo"
 
 #: adjfeedback/models.py:156
 msgid "Adjudicators should be asked this question (about other adjudicators)"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: adjfeedback/models.py:241 adjfeedback/views.py:768
 msgid "ignored"
-msgstr ""
+msgstr "bỏ qua"
 
 #: adjfeedback/models.py:242
 msgid "Whether the feedback should affect the adjudicator's score"
@@ -398,11 +398,11 @@ msgstr ""
 
 #: adjfeedback/models.py:246
 msgid "adjudicator feedback"
-msgstr ""
+msgstr "phản hồi của giám khảo"
 
 #: adjfeedback/models.py:247
 msgid "adjudicator feedbacks"
-msgstr ""
+msgstr "các phản hồi của giám khảo"
 
 #: adjfeedback/models.py:307
 msgid "Either the source adjudicator or source team wasn't specified."
@@ -426,7 +426,7 @@ msgstr ""
 
 #: adjfeedback/tables.py:35
 msgid "N/A"
-msgstr ""
+msgstr "Không xác định"
 
 #: adjfeedback/tables.py:45
 msgid "Current weighted score"
@@ -493,19 +493,19 @@ msgstr ""
 #: adjfeedback/templates/add_feedback.html:6
 #: adjfeedback/templates/enter_feedback.html:5
 msgid "Enter Feedback"
-msgstr ""
+msgstr "Nhập phản hồi"
 
 #: adjfeedback/templates/enter_feedback.html:9
 #: adjfeedback/templates/public_add_feedback.html:13
 #: adjfeedback/templates/public_add_feedback.html:20
 #, python-format
 msgid "Add Feedback from %(name)s"
-msgstr ""
+msgstr "Thêm phản hồi từ %(name)s"
 
 #: adjfeedback/templates/enter_feedback.html:13
 #: adjfeedback/templates/feedback_base.html:42
 msgid "Add Feedback"
-msgstr ""
+msgstr "Thêm phản hồi"
 
 #: adjfeedback/templates/enter_feedback.html:21
 msgid "There are no feedback options because no rounds have been released to the public yet. Check back when they have!"
@@ -529,7 +529,7 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_base.html:8
 msgid "Overview"
-msgstr ""
+msgstr "Tổng quan"
 
 #: adjfeedback/templates/feedback_base.html:12
 msgid "Latest"
@@ -644,15 +644,15 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_card.html:98
 msgid "Un-confirm"
-msgstr ""
+msgstr "Hủy xác nhận"
 
 #: adjfeedback/templates/feedback_card.html:98
 msgid "Confirm"
-msgstr ""
+msgstr "Xác nhận"
 
 #: adjfeedback/templates/feedback_card.html:103
 msgid "Ignored feedback is counted as having been submitted, but does not affect this adjudicator's score."
-msgstr ""
+msgstr "Phản hồi bị bỏ qua được tính là đã nộp, nhưng không ảnh hưởng đến điểm của giám khảo."
 
 #: adjfeedback/templates/feedback_card.html:108
 msgid "Un-ignore"
@@ -660,11 +660,11 @@ msgstr ""
 
 #: adjfeedback/templates/feedback_card.html:108
 msgid "Ignore"
-msgstr ""
+msgstr "Bỏ qua"
 
 #: adjfeedback/templates/feedback_cards_list.html:17
 msgid "No feedback has been submitted yet"
-msgstr ""
+msgstr "Không có phản hồi nào đã được nộp"
 
 #: adjfeedback/templates/feedback_overview.html:4
 #, python-format
@@ -714,7 +714,7 @@ msgstr ""
 
 #: adjfeedback/templates/overview_breakdowns.html:49
 msgid "Feedback"
-msgstr ""
+msgstr "Phản hồi"
 
 #: adjfeedback/templates/overview_breakdowns.html:53
 #, python-format
