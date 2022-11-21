@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-21 17:33\n"
+"PO-Revision-Date: 2022-11-21 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: adjallocation/allocators/base.py:34
 msgid "There are no available adjudicators. Ensure there are adjudicators who have been marked as available for this round before auto-allocating."
-msgstr ""
+msgstr "Hiện tại không có giám khảo nào sẵn sàng. Hãy chắc chắn rằng có giám khảo được đánh dấu sẵn sàng trong vòng này trước khi phân bổ tự động."
 
 #: adjallocation/allocators/hungarian.py:50
 #, python-format
@@ -39,7 +39,7 @@ msgstr ""
 
 #: adjallocation/allocators/hungarian.py:119
 msgid "There are no debates for this round. Maybe you haven't created a draw yet?"
-msgstr ""
+msgstr "Hiện tại chưa có trận debate nào trong vòng này. Có thể tại vì bạn chưa tạo bảng đấu?"
 
 #: adjallocation/allocators/hungarian.py:166
 #, python-format
@@ -80,11 +80,11 @@ msgstr ""
 #, python-format
 msgid "Successfully auto-allocated adjudicators to debates. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to debates. However, there were %(count)d warnings:"
-msgstr[0] ""
+msgstr[0] "Tự động phân bổ các giám khảo cho các trận tranh biện thành công. Tuy nhiên, có %(count)d cảnh báo:"
 
 #: adjallocation/consumers.py:115
 msgid "Successfully auto-allocated adjudicators to debates."
-msgstr ""
+msgstr "Tự động phân bổ các giám khảo cho các trận tranh biện thành công."
 
 #: adjallocation/consumers.py:131
 msgid "There aren't any panels to fill. Create panels first."
@@ -142,7 +142,7 @@ msgstr ""
 
 #: adjallocation/models.py:26
 msgid "debate"
-msgstr ""
+msgstr "trận tranh biện"
 
 #: adjallocation/models.py:28 adjallocation/models.py:48
 #: adjallocation/models.py:80 adjallocation/models.py:169
@@ -171,11 +171,11 @@ msgstr "đội"
 
 #: adjallocation/models.py:53
 msgid "adjudicator-team conflict"
-msgstr ""
+msgstr "xung đột giữa giám khảo và đội"
 
 #: adjallocation/models.py:54
 msgid "adjudicator-team conflicts"
-msgstr ""
+msgstr "xung đột giữa giám khảo và đội"
 
 #: adjallocation/models.py:64
 msgid "adjudicator 1"
@@ -187,11 +187,11 @@ msgstr "giám khảo 2"
 
 #: adjallocation/models.py:70
 msgid "adjudicator-adjudicator conflict"
-msgstr ""
+msgstr "xung đột giữa các giám khảo"
 
 #: adjallocation/models.py:71
 msgid "adjudicator-adjudicator conflicts"
-msgstr ""
+msgstr "xung đột giữa các giám khảo"
 
 #: adjallocation/models.py:82 adjallocation/models.py:97
 msgid "institution"
@@ -199,19 +199,19 @@ msgstr "tổ chức"
 
 #: adjallocation/models.py:85
 msgid "adjudicator-institution conflict"
-msgstr ""
+msgstr "xung đột giữa giám khảo và tổ chức"
 
 #: adjallocation/models.py:86
 msgid "adjudicator-institution conflicts"
-msgstr ""
+msgstr "xung đột giữa giám khảo và tổ chức"
 
 #: adjallocation/models.py:100
 msgid "team-institution conflict"
-msgstr ""
+msgstr "xung đột giữa đội và tổ chức"
 
 #: adjallocation/models.py:101
 msgid "team-institution conflicts"
-msgstr ""
+msgstr "xung đột giữa đội và tổ chức"
 
 #: adjallocation/models.py:114
 msgid "round"
@@ -287,7 +287,7 @@ msgstr ""
 
 #: adjallocation/templates/preformed_index.html:16
 msgid "Note that only adjudicators who have been marked as 'available' for that round will be able to be allocated for that round, so you may need to set their availability in advance."
-msgstr ""
+msgstr "Chú ý rằng chỉ có những giám khảo đã được đánh dấu 'sẵn sàng' cho vòng đó mới có thể được phân bổ cho vòng đó, nên bạn cần phải đánh dấu trước."
 
 #: adjallocation/templates/preformed_index.html:37
 #, python-format
@@ -297,22 +297,22 @@ msgstr ""
 #: adjallocation/utils.py:28
 #, python-format
 msgid "Conflict: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> (personal)"
-msgstr ""
+msgstr "Xung đột: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> (cá nhân)"
 
 #: adjallocation/utils.py:34
 #, python-format
 msgid "Conflict: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> via institution <strong>%(institution)s</strong>"
-msgstr ""
+msgstr "Xung đột: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> với tổ chức <strong>%(institution)s</strong>"
 
 #: adjallocation/utils.py:46
 #, python-format
 msgid "Conflict: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> (personal)"
-msgstr ""
+msgstr "Xung đột: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> (cá nhân)"
 
 #: adjallocation/utils.py:52
 #, python-format
 msgid "Conflict: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> via institution <strong>%(institution)s</strong>"
-msgstr ""
+msgstr "Xung đột: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> với tổ chức <strong>%(institution)s</strong>"
 
 #: adjallocation/views.py:35
 msgid "Male"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: adjallocation/views.py:38
 msgid "Unknown"
-msgstr ""
+msgstr "Không xác định"
 
 #: adjallocation/views.py:90
 msgid "Edit Allocation"
