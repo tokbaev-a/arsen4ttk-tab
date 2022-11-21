@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-11-21 18:31\n"
+"PO-Revision-Date: 2022-11-21 20:11\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: results/models.py:44
 msgid "confirmed"
-msgstr ""
+msgstr "đã xác nhận"
 
 #: results/models.py:48
 msgid "from private URL"
@@ -248,7 +248,7 @@ msgstr "giám khảo tranh biện"
 #: results/models.py:232 results/models.py:271 results/models.py:307
 #: results/models.py:349
 msgid "debate team"
-msgstr ""
+msgstr "đội"
 
 #: results/models.py:235 results/models.py:312
 msgid "win"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: results/templates/admin_results.html:6
 msgid "Display Draw"
-msgstr ""
+msgstr "Hiện thị bảng đấu"
 
 #: results/templates/admin_results.html:9
 msgid "Check-In Ballots"
@@ -448,7 +448,7 @@ msgstr ""
 #: results/templates/assistant_results.html:4
 #: results/templates/assistant_results.html:5 results/views.py:513
 msgid "Enter Results"
-msgstr ""
+msgstr "Nhập kết quả"
 
 #: results/templates/assistant_results.html:12
 msgid "This page automatically updates with the new ballot entries and checkins as they occur."
@@ -951,7 +951,7 @@ msgstr ""
 
 #: results/views.py:270 results/views.py:272
 msgid " vs "
-msgstr ""
+msgstr " đối đầu với "
 
 #: results/views.py:273
 #, python-format
