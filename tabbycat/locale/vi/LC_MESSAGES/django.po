@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-28 21:53-0400\n"
-"PO-Revision-Date: 2022-11-21 18:31\n"
+"PO-Revision-Date: 2022-11-21 20:11\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -606,7 +606,7 @@ msgstr ""
 
 #: templates/nav/assistant_nav.html:5
 msgid "Enter Results"
-msgstr ""
+msgstr "Nhập kết quả"
 
 #: templates/nav/assistant_nav.html:11 templates/nav/public_nav.html:211
 msgid "Enter Feedback"
@@ -675,7 +675,7 @@ msgstr ""
 #: templates/nav/public_nav.html:91
 #, python-format
 msgid "Draw for %(round)s"
-msgstr ""
+msgstr "Bảng đấu cho vòng %(round)s"
 
 #: templates/nav/public_nav.html:95
 msgid "Current Draws"
@@ -703,7 +703,7 @@ msgstr ""
 
 #: templates/nav/round_panel.html:37
 msgid "Draw"
-msgstr ""
+msgstr "Bảng đấu"
 
 #: templates/nav/round_panel.html:48
 msgid "Display"
