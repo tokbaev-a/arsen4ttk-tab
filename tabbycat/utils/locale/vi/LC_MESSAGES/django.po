@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 01:40-0300\n"
-"PO-Revision-Date: 2022-11-21 21:17\n"
+"PO-Revision-Date: 2022-11-21 23:13\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -36,15 +36,15 @@ msgstr ""
 
 #: utils/tables.py:161
 msgid "chair"
-msgstr ""
+msgstr "giám khảo chính"
 
 #: utils/tables.py:162
 msgid "panellist"
-msgstr ""
+msgstr "giám khảo phụ"
 
 #: utils/tables.py:163
 msgid "trainee"
-msgstr ""
+msgstr "giám khảo thực tập"
 
 #: utils/tables.py:166
 msgid "—"
