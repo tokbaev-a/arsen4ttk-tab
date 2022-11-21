@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-21 20:10\n"
+"PO-Revision-Date: 2022-11-21 23:13\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -44,7 +44,7 @@ msgstr "Hiện tại chưa có trận debate nào trong vòng này. Có thể t�
 #: adjallocation/allocators/hungarian.py:166
 #, python-format
 msgid "There are %(debate_count)s debates but only %(adj_count)s voting adjudicators."
-msgstr ""
+msgstr "Có %(debate_count)s trận tranh biện nhưng chỉ có %(adj_count)s giám khảo có khả năng bầu."
 
 #: adjallocation/allocators/hungarian.py:172
 #, python-format
@@ -54,7 +54,7 @@ msgstr ""
 #: adjallocation/allocators/hungarian.py:282
 #, python-format
 msgid "There are %(debates_count)s debates but only %(voting_count)s voting adjudicators."
-msgstr ""
+msgstr "Có %(debates_count)s trận tranh biện nhưng chỉ có %(voting_count)s giám khảo có khả năng bầu."
 
 #: adjallocation/apps.py:7
 msgid "Adjudicator Allocation"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: adjallocation/consumers.py:83
 msgid "Successfully auto-allocated preformed panels to debates."
-msgstr ""
+msgstr "Đã tự động phân bổ thành công bàn giám khảo cho các trận tranh biện."
 
 #: adjallocation/consumers.py:109
 #, python-format
@@ -94,11 +94,11 @@ msgstr ""
 #, python-format
 msgid "Successfully auto-allocated adjudicators to preformed panels. However, there was a warning:"
 msgid_plural "Successfully auto-allocated adjudicators to preformed panels. However, there were %(count)d warnings:"
-msgstr[0] ""
+msgstr[0] "Đã tự động phân bổ các giám khảo cho các trận tranh biện thành công. Tuy nhiên, có %(count)d cảnh báo:"
 
 #: adjallocation/consumers.py:161
 msgid "Successfully auto-allocated adjudicators to preformed panels."
-msgstr ""
+msgstr "Đã tự động phân bổ giám khảo cho các bàn giám khảo thành công."
 
 #: adjallocation/consumers.py:207
 msgid "You have no break category set as 'is general' so debate importances can't be calculated."
@@ -106,7 +106,7 @@ msgstr ""
 
 #: adjallocation/consumers.py:215
 msgid "Succesfully auto-prioritised debates."
-msgstr ""
+msgstr "Đã tự động ưu tiên các trận tranh biện thành công."
 
 #: adjallocation/consumers.py:237
 msgid "You have no break category set as 'is general' so panel importances can't be calculated."
@@ -130,15 +130,15 @@ msgstr ""
 
 #: adjallocation/models.py:18
 msgid "chair"
-msgstr ""
+msgstr "giám khảo chính"
 
 #: adjallocation/models.py:19
 msgid "panellist"
-msgstr ""
+msgstr "giám khảo phụ"
 
 #: adjallocation/models.py:20
 msgid "trainee"
-msgstr ""
+msgstr "giám khảo thực tập"
 
 #: adjallocation/models.py:26
 msgid "debate"
@@ -151,7 +151,7 @@ msgstr "giám khảo"
 
 #: adjallocation/models.py:30 adjallocation/models.py:171
 msgid "type"
-msgstr ""
+msgstr "loại"
 
 #: adjallocation/models.py:31
 msgid "available?"
@@ -247,7 +247,7 @@ msgstr ""
 
 #: adjallocation/models.py:128
 msgid "liveness"
-msgstr ""
+msgstr "khả năng bước tiếp"
 
 #: adjallocation/models.py:129
 msgid "Number of categories this room is expected to be live for"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: adjallocation/models.py:167
 msgid "panel"
-msgstr ""
+msgstr "bàn giám khảo"
 
 #: adjallocation/models.py:174
 msgid "preformed panel adjudicator"
@@ -324,7 +324,7 @@ msgstr "Nữ"
 
 #: adjallocation/views.py:37
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: adjallocation/views.py:38
 msgid "Unknown"
