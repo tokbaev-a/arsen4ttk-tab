@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-23 20:32\n"
+"PO-Revision-Date: 2022-11-23 21:53\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: adjallocation/allocators/hungarian.py:119
 msgid "There are no debates for this round. Maybe you haven't created a draw yet?"
-msgstr ""
+msgstr "No hi ha debats per aquesta ronda. Potser no has creat l'emparellament encara?"
 
 #: adjallocation/allocators/hungarian.py:166
 #, python-format
@@ -227,11 +227,11 @@ msgstr ""
 
 #: adjallocation/models.py:119
 msgid "minimum bracket"
-msgstr ""
+msgstr "Grup inferior"
 
 #: adjallocation/models.py:120
 msgid "Estimate of the lowest bracket for which this panel might be"
-msgstr ""
+msgstr "Estimació del grup inferior en què aquests jutges podrien estar"
 
 #: adjallocation/models.py:122
 msgid "maximum bracket"
@@ -259,194 +259,194 @@ msgstr ""
 
 #: adjallocation/models.py:132
 msgid "preformed panel"
-msgstr ""
+msgstr "Grup de Jutges format amb antelació"
 
 #: adjallocation/models.py:133
 msgid "preformed panels"
-msgstr ""
+msgstr "Grups de Jutges formats amb antelació"
 
 #: adjallocation/models.py:167
 msgid "panel"
-msgstr ""
+msgstr "Grup de Jutges"
 
 #: adjallocation/models.py:174
 msgid "preformed panel adjudicator"
-msgstr ""
+msgstr "Jutge d'un Grup de Jutges format amb antelació"
 
 #: adjallocation/models.py:175
 msgid "preformed panel adjudicators"
-msgstr ""
+msgstr "Jutges d'un Grup de Jutges format amb antelació"
 
 #: adjallocation/preformed/base.py:41
 msgid "There are no preformed panels to use. Have you allocated preformed panels for this round? If not, try just auto-allocating adjudicators instead."
-msgstr ""
+msgstr "No hi ha cap Grup de Jutges format amb antelació per utilitzar. Has col·locat Grup de Jutges format amb antelació per aquesta ronda? Si no has fet, tan sols mira d'autocol·locar-ne."
 
 #: adjallocation/templates/preformed_index.html:5 adjallocation/views.py:128
 msgid "Preformed Panels"
-msgstr ""
+msgstr "Grups de Jutges formats amb antelació"
 
 #: adjallocation/templates/preformed_index.html:10
 msgid "A preformed panel is a defined group of adjudicators that is specified for a round before its draw has been generated. You can then manually or automatically apply these panels during the normal adjudicator allocation process. This can make allocations faster or allow you to create more considered panels of adjudicators."
-msgstr ""
+msgstr "Un Grup de Jutges format amb antelació és un grup definit de Jutges que és escollit per una ronda abans que el seu emparellament hagi estat generat. Llavors, pots col·locar aquests Grups de Jutges durant el procés usual de col·locació de Jutges de forma automàtica o manual. Això pot fer que les col·locacions siguin més ràpides o et pot permetre crear Grups de Jutges amb més contemplació."
 
 #: adjallocation/templates/preformed_index.html:16
 msgid "Note that only adjudicators who have been marked as 'available' for that round will be able to be allocated for that round, so you may need to set their availability in advance."
-msgstr ""
+msgstr "Adona-te'n que tan sols els Jutges que apareixen marcats com \"disponible\" per aquesta ronda estaran disponibles per ser col·locats, doncs tu podràs necessitar marcar la seva disponibilitat amb anterioritat. "
 
 #: adjallocation/templates/preformed_index.html:37
 #, python-format
 msgid "Edit Preformed Panels for %(round)s"
-msgstr ""
+msgstr "Editar Grups de Jutges formats amb antelació per %(round)s"
 
 #: adjallocation/utils.py:28
 #, python-format
 msgid "Conflict: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> (personal)"
-msgstr ""
+msgstr "Incompatibilitat: <strong>%(adjudicator)s</strong> i <strong>%(team)s</strong> (personal)"
 
 #: adjallocation/utils.py:34
 #, python-format
 msgid "Conflict: <strong>%(adjudicator)s</strong> & <strong>%(team)s</strong> via institution <strong>%(institution)s</strong>"
-msgstr ""
+msgstr "Incompatibilitat: <strong>%(adjudicator)s</strong> i <strong>%(team)s</strong> degut a Institució <strong>%(institution)s</strong>"
 
 #: adjallocation/utils.py:46
 #, python-format
 msgid "Conflict: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> (personal)"
-msgstr ""
+msgstr "Incompatibilitat: <strong>%(adjudicator1)s</strong> i <strong>%(adjudicator2)s</strong> (personal)"
 
 #: adjallocation/utils.py:52
 #, python-format
 msgid "Conflict: <strong>%(adjudicator1)s</strong> & <strong>%(adjudicator2)s</strong> via institution <strong>%(institution)s</strong>"
-msgstr ""
+msgstr "Incompatibilitat: <strong>%(adjudicator1)s</strong> i <strong>%(adjudicator2)s</strong> degut a Institució <strong>%(institution)s</strong>"
 
 #: adjallocation/views.py:35
 msgid "Male"
-msgstr ""
+msgstr "Home"
 
 #: adjallocation/views.py:36
 msgid "Female"
-msgstr ""
+msgstr "Dona"
 
 #: adjallocation/views.py:37
 msgid "Other"
-msgstr ""
+msgstr "Altre"
 
 #: adjallocation/views.py:38
 msgid "Unknown"
-msgstr ""
+msgstr "Desconegut"
 
 #: adjallocation/views.py:90
 msgid "Edit Allocation"
-msgstr ""
+msgstr "Edita Localització"
 
 #: adjallocation/views.py:105
 msgid "Edit Panels"
-msgstr ""
+msgstr "Edita Grup de Jutges"
 
 #: adjallocation/views.py:111
 msgid "Return to Panels Overview"
-msgstr ""
+msgstr "Retorna a la supervisió dels Grups de Jutges"
 
 #: adjallocation/views.py:172
 msgid "Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Equip"
 
 #: adjallocation/views.py:173
 msgid "Save Adjudicator-Team Conflicts"
-msgstr ""
+msgstr "Guardar Incompatibilitats Jutge-Equip"
 
 #: adjallocation/views.py:198
 #, python-format
 msgid "Saved %(count)d adjudicator-team conflict."
 msgid_plural "Saved %(count)d adjudicator-team conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " %(count)d Incompatibilitat Jutge-Equip guardada."
+msgstr[1] " %(count)d Incompatibilitats Jutge-Equip guardades."
 
 #: adjallocation/views.py:204
 #, python-format
 msgid "Deleted %(count)d adjudicator-team conflict."
 msgid_plural "Deleted %(count)d adjudicator-team conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Jutge-Equip esborrada."
+msgstr[1] "%(count)d Incompatibilitats Jutge-Equip esborrades."
 
 #: adjallocation/views.py:209
 msgid "No changes were made to adjudicator-team conflicts."
-msgstr ""
+msgstr "No s'han fet canvis a les Incompatibilitats Jutge-Equip."
 
 #: adjallocation/views.py:216
 msgid "Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Jutge"
 
 #: adjallocation/views.py:217
 msgid "Save Adjudicator-Adjudicator Conflicts"
-msgstr ""
+msgstr "Guardar Incompatibilitats Jutge-Jutge"
 
 #: adjallocation/views.py:238
 #, python-format
 msgid "Saved %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Saved %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Jutge-Jutge guardada."
+msgstr[1] "%(count)d Incompatibilitats Jutge-Jutge guardades."
 
 #: adjallocation/views.py:244
 #, python-format
 msgid "Deleted %(count)d adjudicator-adjudicator conflict."
 msgid_plural "Deleted %(count)d adjudicator-adjudicator conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Jutge-Jutge esborrada."
+msgstr[1] "%(count)d Incompatibilitats Jutge-Jutge esborrades."
 
 #: adjallocation/views.py:249
 msgid "No changes were made to adjudicator-adjudicator conflicts."
-msgstr ""
+msgstr "No s'han fet canvis a les Incompatibilitats Jutge-Jutge."
 
 #: adjallocation/views.py:256
 msgid "Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Institució"
 
 #: adjallocation/views.py:257
 msgid "Save Adjudicator-Institution Conflicts"
-msgstr ""
+msgstr "Guardar Incompatibilitats Jutge-Institució"
 
 #: adjallocation/views.py:277
 #, python-format
 msgid "Saved %(count)d adjudicator-institution conflict."
 msgid_plural "Saved %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Jutge-Institució guardada."
+msgstr[1] "%(count)d Incompatibilitats Jutge-Institució guardades."
 
 #: adjallocation/views.py:283
 #, python-format
 msgid "Deleted %(count)d adjudicator-institution conflict."
 msgid_plural "Deleted %(count)d adjudicator-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Jutge-Institució esborrada."
+msgstr[1] "%(count)d Incompatibilitats Jutge-Institució esborrades."
 
 #: adjallocation/views.py:288
 msgid "No changes were made to adjudicator-institution conflicts."
-msgstr ""
+msgstr "No s'han fet canvis a les Incompatibilitats Jutge-Institució."
 
 #: adjallocation/views.py:295
 msgid "Team-Institution Conflicts"
-msgstr ""
+msgstr "Incompatibilitats Equip-Institució"
 
 #: adjallocation/views.py:296
 msgid "Save Team-Institution Conflicts"
-msgstr ""
+msgstr "Guardar Incompatibilitats Equip-Institució"
 
 #: adjallocation/views.py:319
 #, python-format
 msgid "Saved %(count)d team-institution conflict."
 msgid_plural "Saved %(count)d team-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Equip-Institució guardada."
+msgstr[1] "%(count)d Incompatibilitats Equip-Institució guardades."
 
 #: adjallocation/views.py:325
 #, python-format
 msgid "Deleted %(count)d team-institution conflict."
 msgid_plural "Deleted %(count)d team-institution conflicts."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)d Incompatibilitat Equip-Institució esborrada."
+msgstr[1] "%(count)d Incompatibilitats Equip-Institució esborrades."
 
 #: adjallocation/views.py:330
 msgid "No changes were made to team-institution conflicts."
-msgstr ""
+msgstr "No s'han fet canvis a les Incompatibilitats Equip-Institució."
 
