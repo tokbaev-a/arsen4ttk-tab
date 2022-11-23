@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2022-11-23 15:09\n"
+"PO-Revision-Date: 2022-11-23 20:32\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -134,11 +134,11 @@ msgstr ""
 
 #: adjallocation/models.py:18
 msgid "chair"
-msgstr ""
+msgstr "principal"
 
 #: adjallocation/models.py:19
 msgid "panellist"
-msgstr ""
+msgstr "panelista"
 
 #: adjallocation/models.py:20
 msgid "trainee"
@@ -146,80 +146,80 @@ msgstr ""
 
 #: adjallocation/models.py:26
 msgid "debate"
-msgstr ""
+msgstr "debat"
 
 #: adjallocation/models.py:28 adjallocation/models.py:48
 #: adjallocation/models.py:80 adjallocation/models.py:169
 msgid "adjudicator"
-msgstr ""
+msgstr "jutges"
 
 #: adjallocation/models.py:30 adjallocation/models.py:171
 msgid "type"
-msgstr ""
+msgstr "mena"
 
 #: adjallocation/models.py:31
 msgid "available?"
-msgstr ""
+msgstr "disponible?"
 
 #: adjallocation/models.py:34
 msgid "debate adjudicator"
-msgstr ""
+msgstr "jutge del debat"
 
 #: adjallocation/models.py:35
 msgid "debate adjudicators"
-msgstr ""
+msgstr "jutges del debat"
 
 #: adjallocation/models.py:50 adjallocation/models.py:95
 msgid "team"
-msgstr ""
+msgstr "equip"
 
 #: adjallocation/models.py:53
 msgid "adjudicator-team conflict"
-msgstr ""
+msgstr "Incompatibilitat Jutge-Equip"
 
 #: adjallocation/models.py:54
 msgid "adjudicator-team conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Equip"
 
 #: adjallocation/models.py:64
 msgid "adjudicator 1"
-msgstr ""
+msgstr "Primer Jutge"
 
 #: adjallocation/models.py:67
 msgid "adjudicator 2"
-msgstr ""
+msgstr "Segon Jutge"
 
 #: adjallocation/models.py:70
 msgid "adjudicator-adjudicator conflict"
-msgstr ""
+msgstr "Incompatibilitat Jutge-Jutge"
 
 #: adjallocation/models.py:71
 msgid "adjudicator-adjudicator conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Jutge"
 
 #: adjallocation/models.py:82 adjallocation/models.py:97
 msgid "institution"
-msgstr ""
+msgstr "Institució"
 
 #: adjallocation/models.py:85
 msgid "adjudicator-institution conflict"
-msgstr ""
+msgstr "Incompatibilitat Jutge-Institució"
 
 #: adjallocation/models.py:86
 msgid "adjudicator-institution conflicts"
-msgstr ""
+msgstr "Incompatibilitats Jutge-Institució"
 
 #: adjallocation/models.py:100
 msgid "team-institution conflict"
-msgstr ""
+msgstr "Incompatibilitat Equip-Institució"
 
 #: adjallocation/models.py:101
 msgid "team-institution conflicts"
-msgstr ""
+msgstr "Incompatibilitats Equip-Institució"
 
 #: adjallocation/models.py:114
 msgid "round"
-msgstr ""
+msgstr "ronda"
 
 #: adjallocation/models.py:116
 msgid "importance"
